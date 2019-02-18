@@ -27,14 +27,14 @@ A favicon provides a quick visual representation of the web page/site and is use
 * Continue to use __link__ element with rel 'icon' for representing a spatial favicon.
 * Use Khronos [glTF (v2.0)](https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md) binary (.glb) as the 3D asset format.
 * The 'type' attribute should be glTF binary mime : **model/gltf-binary**
-* The 'sizes' attribute should be extended with an additional dimension: 'breadth'. User agents should interpret sizes as : 'width' x 'height' x 'breadth'. This will follow the same parsing rules for non negative integers as specified in section [4.6.6.8](https://html.spec.whatwg.org/multipage/links.html#rel-icon) of the specification.
+* The 'sizes' attribute should be extended with an additional dimension: 'depth'. User agents should interpret sizes as : 'width' x 'height' x 'depth'. This will follow the same parsing rules for non negative integers as specified in section [4.6.6.8](https://html.spec.whatwg.org/multipage/links.html#rel-icon) of the specification.
 * The 'sizes' will now indicate the asset size in **millimeters**.
-* The WebApp manifest 'icons' member should be extended to incorporate 3D/spatial icons and the 'sizes' member will also have a third dimension: 'breadth' when associated with spatial icons. When multiple icons are provided user agents would select a spatial icon for immersive mode if it supports else continue to follow existing alogorithm to choose a 2D icon from the 'icons' array.
+* The WebApp manifest 'icons' member should be extended to incorporate 3D/spatial icons and the 'sizes' member will also have a third dimension: 'depth' when associated with spatial icons. When multiple icons are provided user agents would select a spatial icon for immersive mode if it supports else continue to follow existing alogorithm to choose a 2D icon from the 'icons' array.
 
 
 ### Additional Notes
 
-* 'breadth' is not a defined CSS property.
+* 'depth' is not a defined CSS property.
 
 ## Constraints:
 
