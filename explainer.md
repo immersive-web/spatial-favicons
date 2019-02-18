@@ -72,11 +72,22 @@ Per specifications authors can provide multiple favicons (or WebApp icons). Thes
 
 ### Example 1: High Quality and Low Quality versions of the same asset
 
-A desktop icon like shortcut to a website on the platform could use a high quality version of the icon. While the same platform's user agent could use a low quality icon to represent the website in a history listing.
+A desktop icon like shortcut to a website on the platform could use a high quality version of the icon. While the same platform's user agent could use a low quality icon to represent the website in a bookmark listing. See sample renderings below.
 
 ### Example 2: High Quality asset different from Low Quality asset
 
-A website or WebApp represented by a humanoid can provide two 3D icons. A high quality one with a complete humanoid and a low quality humanoid head only asset. A multi tab user agent can show the entire Humanoid asset for an Active Tab, but show only the head asset in the list of bookmarks.
+A website or WebApp represented by a Dinosaur 3D icon can provide two 3D icons. A high quality one with a complete Dinosaur and a low quality Dinosaur head only asset. A multi tab user agent can show the entire Dinosaur asset for an Active Tab, but show only the head asset in the list of bookmarks. See sample renderings below.
+
+### Sample Rendering of Spatial Icon use cases
+
+#### Sample 1: User Agent bookmark listing
+
+![alt text](bookmarks.png "Bookmarks")
+
+#### Sample 2: User Agent multi tab browsing
+
+![alt text](multi-tab.png "Multi tabs")
+
 
 
 
